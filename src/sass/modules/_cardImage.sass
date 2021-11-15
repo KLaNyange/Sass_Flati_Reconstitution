@@ -16,7 +16,7 @@
         padding: 15px
     .cardImg
         display: flex
-        
+
         color: white
         margin: 10px
         text-align: center
@@ -42,6 +42,9 @@
         .cardImg
             display: inline
             .contenuCard
+                img
+                    width: 100%
+                    height: 150px
                 p
                     display: none
             
@@ -57,3 +60,16 @@
                 width: 30%
                 img
                     width: 100%
+
+@media screen and (min-width:769px) and (max-width:1024px)
+    .container
+        margin: 5%
+        .recent
+            padding-right: 50px
+    .cardImg
+        display: flex
+        align-items: center
+        .contenuCard
+            height: 250px
+            img
+                width: 180px
