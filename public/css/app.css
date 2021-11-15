@@ -6246,6 +6246,7 @@ nav ul a {
 .container1 {
   margin-right: 10%;
   margin-left: 10%;
+  margin-bottom: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6272,7 +6273,16 @@ nav ul a {
   border-radius: 5px;
 }
 
-.container1 .card i {
+.container1 .card .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container1 .card .icon i {
   background-color: white;
   height: 40px;
   width: 60px;
@@ -6281,10 +6291,15 @@ nav ul a {
   margin-bottom: 10px;
   padding-top: 20px;
   color: #3676bb;
+  font-size: 30px;
 }
 
 .container1 .card span {
   color: #37afd4;
+}
+
+.container1 .card p {
+  padding: 10px;
 }
 
 .container {
