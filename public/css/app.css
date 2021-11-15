@@ -6242,4 +6242,48 @@ nav ul a {
 .quote p #grey {
   color: grey;
 }
+
+.container1 {
+  margin-right: 250px;
+  margin-left: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container1 .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #e2e0e0;
+  margin: 20px;
+  margin-top: 60px;
+  padding-bottom: 40px;
+  border-radius: 5px;
+}
+
+.container1 .card i {
+  background-color: white;
+  height: 40px;
+  width: 60px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  color: #3676bb;
+}
+
+.container1 .card span {
+  color: #37afd4;
+}
 /*# sourceMappingURL=app.css.map */
