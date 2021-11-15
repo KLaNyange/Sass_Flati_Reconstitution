@@ -6190,6 +6190,24 @@ nav ul a {
   color: lightgrey;
 }
 
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  nav {
+    width: 100%;
+  }
+  nav h1 {
+    display: none;
+  }
+  nav ul {
+    padding: 0;
+  }
+  nav ul li {
+    margin: 0;
+    padding: 0;
+    padding-left: 5px;
+    font-size: 10px;
+  }
+}
+
 .banniereBlack {
   margin: 0;
   padding: 0;
@@ -6199,6 +6217,12 @@ nav ul a {
   margin: 0px;
   height: 400px;
   width: 100%;
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .banniereBlack img {
+    height: 150px;
+  }
 }
 
 .quote {
@@ -6241,6 +6265,15 @@ nav ul a {
 
 .quote p #grey {
   color: grey;
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .quote {
+    height: 100px;
+  }
+  .quote p {
+    font-size: 13px;
+  }
 }
 
 .container1 {
@@ -6302,6 +6335,28 @@ nav ul a {
   padding: 10px;
 }
 
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .container1 {
+    margin: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container1 .card {
+    margin: 0;
+    border-radius: 0px;
+  }
+  .container1 .card p {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+  }
+  .container1 .card span {
+    display: none;
+  }
+}
+
 .container {
   margin-right: 10%;
   margin-left: 10%;
@@ -6343,6 +6398,40 @@ nav ul a {
   border-radius: 5px 5px;
 }
 
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0px;
+  }
+  .container .recent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+  }
+  .container .recent p {
+    display: none;
+  }
+  .container .recent button {
+    padding: 0;
+    height: 40px;
+  }
+  .container .cardImg {
+    display: inline;
+  }
+  .container .cardImg .contenuCard p {
+    display: none;
+  }
+}
+
 footer {
   color: #9db8d1;
   height: 300px;
@@ -6374,8 +6463,8 @@ footer .para {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  margin-left: 405px;
-  margin-right: 405px;
+  margin-left: 425px;
+  margin-right: 425px;
 }
 
 footer .reseau {
@@ -6401,6 +6490,15 @@ footer .copyright {
 footer .copyright p {
   margin: 0;
   color: #53646d;
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  footer {
+    height: 50px;
+  }
+  footer .para {
+    margin: 0px;
+  }
 }
 
 body {
