@@ -6244,8 +6244,8 @@ nav ul a {
 }
 
 .container1 {
-  margin-right: 250px;
-  margin-left: 250px;
+  margin-right: 10%;
+  margin-left: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6285,5 +6285,49 @@ nav ul a {
 
 .container1 .card span {
   color: #37afd4;
+}
+
+.container {
+  margin-right: 10%;
+  margin-left: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .recent {
+  margin-left: 15px;
+  padding-right: 120px;
+}
+
+.container #gris {
+  color: #354a52;
+}
+
+.container button {
+  background-color: #26a2cc;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.container .cardImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  margin: 10px;
+  text-align: center;
+}
+
+.container .contenuCard {
+  background-color: #38485f;
+  margin: 5px;
+  border-radius: 5px 5px;
+}
+
+body {
+  color: grey;
 }
 /*# sourceMappingURL=app.css.map */
