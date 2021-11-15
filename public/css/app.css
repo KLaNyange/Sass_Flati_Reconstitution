@@ -6208,6 +6208,21 @@ nav ul a {
   }
 }
 
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  nav {
+    width: 100%;
+  }
+  nav ul {
+    padding: 0;
+  }
+  nav ul li {
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+    font-size: 10px;
+  }
+}
+
 .banniereBlack {
   margin: 0;
   padding: 0;
@@ -6222,6 +6237,12 @@ nav ul a {
 @media screen and (min-width: 375px) and (max-width: 425px) {
   .banniereBlack img {
     height: 150px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .banniereBlack img {
+    height: 200px;
   }
 }
 
@@ -6273,6 +6294,15 @@ nav ul a {
   }
   .quote p {
     font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .quote {
+    height: 150px;
+  }
+  .quote p {
+    font-size: 14px;
   }
 }
 
@@ -6357,6 +6387,20 @@ nav ul a {
   }
 }
 
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .container1 {
+    margin: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container1 .card {
+    margin: 10px;
+    border-radius: 10px;
+  }
+}
+
 .container {
   margin-right: 10%;
   margin-left: 10%;
@@ -6432,6 +6476,31 @@ nav ul a {
   }
 }
 
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0px;
+  }
+  .container .cardImg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .container .cardImg .contenuCard {
+    width: 30%;
+  }
+  .container .cardImg .contenuCard img {
+    width: 100%;
+  }
+}
+
 footer {
   color: #9db8d1;
   height: 300px;
@@ -6495,6 +6564,15 @@ footer .copyright p {
 @media screen and (min-width: 375px) and (max-width: 425px) {
   footer {
     height: 50px;
+  }
+  footer .para {
+    margin: 0px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  footer {
+    height: 150px;
   }
   footer .para {
     margin: 0px;
