@@ -6327,6 +6327,63 @@ nav ul a {
   border-radius: 5px 5px;
 }
 
+footer {
+  color: #9db8d1;
+  height: 300px;
+}
+
+footer .inTouch {
+  height: 250px;
+  background-color: #3676bb;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .titre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 30px;
+}
+
+footer .para {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .reseau {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 40px;
+}
+
+footer .reseau i {
+  margin: 20px;
+}
+
+footer .copyright {
+  text-align: center;
+  background-color: #363b47;
+  padding: 20px;
+}
+
+footer .copyright p {
+  margin: 0;
+  color: #53646d;
+}
+
 body {
   color: grey;
 }
