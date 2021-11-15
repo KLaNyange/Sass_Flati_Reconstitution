@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6138,5 +6142,51 @@ readers do not read off random characters that represent icons */
 .far {
   font-family: 'Font Awesome 5 Free';
   font-weight: 400;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #363b47;
+}
+
+nav h1 {
+  color: white;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 25px;
+  margin-bottom: 0;
+  padding-bottom: 15px;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+nav ul li:hover {
+  background-color: #3676bb;
+  border-radius: 5px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: lightgrey;
 }
 /*# sourceMappingURL=app.css.map */
