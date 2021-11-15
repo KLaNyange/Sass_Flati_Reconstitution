@@ -6305,6 +6305,7 @@ nav ul a {
 .container {
   margin-right: 10%;
   margin-left: 10%;
+  margin-bottom: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
