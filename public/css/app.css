@@ -6373,6 +6373,9 @@ footer .para {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
+  margin-left: 405px;
+  margin-right: 405px;
 }
 
 footer .reseau {
@@ -6382,7 +6385,7 @@ footer .reseau {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 footer .reseau i {
