@@ -6189,4 +6189,57 @@ nav ul a {
   text-decoration: none;
   color: lightgrey;
 }
+
+.banniereBlack {
+  margin: 0;
+  padding: 0;
+}
+
+.banniereBlack img {
+  margin: 0px;
+  height: 400px;
+  width: 100%;
+}
+
+.quote {
+  background: #e8e6e0;
+  margin-top: 0px;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.quote p {
+  margin: 0px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.quote p span {
+  font-weight: bold;
+}
+
+.quote p #bgblue {
+  background-color: #26a2cc;
+  color: white;
+}
+
+.quote p #blue {
+  color: #26a2cc;
+}
+
+.quote p #grey {
+  color: grey;
+}
 /*# sourceMappingURL=app.css.map */
